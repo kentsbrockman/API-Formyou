@@ -1,6 +1,6 @@
 # Rails Api to the Form You app.
 
-##### Can be used with the [associated React frontend](https://github.com/cha-fa/react_boilerplate)
+##### Can be used with the [associated React frontend](https://github.com/kentsbrockman/React-Formyou)
 
 ## Description
 * Ruby '2.7.1'  
@@ -13,7 +13,6 @@
 * letter opener (in development)
 
 ## Usage
-
 Clone this repository  
 Generate a secret key `rails secret`  
 Create a .env with `DEVISE_JWT_SECRET_KEY="yoursecretkey"`    
@@ -23,11 +22,10 @@ Create a .env with `DEVISE_JWT_SECRET_KEY="yoursecretkey"`
 Your app will be running on `http://localhost:8080`  
 
 ## Production 
- visit the app (https://formyou.herokuapp.com/)
+Visit the app (https://formyou.herokuapp.com/)
 
 ## Routes
-
-after cloning this repository, if you when to use specific routes for this api, please use 
+After cloning this repository, if you when to use specific routes for this api, please use 
 `rails routes`
 Remember that you will need an authentication token to fetch your data.
 
